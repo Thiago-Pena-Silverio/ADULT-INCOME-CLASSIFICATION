@@ -26,6 +26,8 @@ The positive class is annual income above $50,000. Scores below come from the he
 
 The tuned forest identified 1,344 of the 1,568 people in the higher-income group and produced 918 false positives. Logistic regression had the highest precision. These results describe the notebook's stratified split of the UCI training file.
 
+A fresh end-to-end run with Python 3.13 and scikit-learn 1.6.1 reproduced the displayed scores for logistic regression and the initial forest to four decimal places. The tuned forest returned accuracy 0.8397, precision 0.6279, recall 0.8221, F1 0.7120 and ROC-AUC 0.9164. It still had the highest F1 and recall. The exact cause of the difference from the submitted run is unverified.
+
 ---
 
 🖥️ **How to Run**
