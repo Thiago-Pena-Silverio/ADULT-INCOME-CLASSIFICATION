@@ -1,20 +1,20 @@
-# ADULT-INCOME-CLASSIFICATION
+# Adult Income Classification
 
 Can a classifier identify people earning more than $50,000 a year in the UCI Adult dataset? This project compares logistic regression with two random forests and examines the trade-off between finding more high-income cases and making more false-positive predictions.
 
-🎓 **Context**
+## 🎓 Context
 
 Thiago Pena Silverio completed this project for the Applied Machine Learning module. The experiment uses ten demographic and employment features from the historical [UCI Adult dataset](https://archive.ics.uci.edu/dataset/2/adult). After removing 24 duplicate rows, the notebook splits the remaining records into 26,029 training cases and 6,508 test cases. Preprocessing and five-fold model selection use the training data.
 
-📁 **Folders**
+## 📁 Folders
 
 - [Notebooks](Notebooks/Adult_Income_Classification.ipynb) contains the completed analysis, including exploratory plots, a 12-configuration grid search, confusion matrices, ROC curves and feature importance.
 
-🛠️ **Tech Stack**
+## 🛠️ Tech Stack
 
 Python, pandas, scikit-learn, Matplotlib, seaborn, joblib and Jupyter.
 
-🎖️ **Results**
+## 🎖️ Results
 
 The positive class is annual income above $50,000. Scores below come from the held-out test set in the submitted notebook.
 
@@ -30,7 +30,7 @@ A fresh end-to-end run with Python 3.13 and scikit-learn 1.6.1 reproduced the di
 
 ---
 
-🖥️ **How to Run**
+## 🖥️ How to Run
 
 From the repository root, install the dependencies and open the notebook:
 
